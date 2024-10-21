@@ -1,2 +1,6 @@
 import "./styles.css";
-import { myClass } from "./myClass.js";
+import { MyClass } from "./myClass.js";
+
+const myClass = new MyClass('Hello World');
+myClass.print();
+myClass.addToDom();
